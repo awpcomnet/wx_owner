@@ -12,7 +12,7 @@ public class TheFirstTestController {
 	@RequestMapping("/1")  
     public User view(String id) {  
         User user = new User();  
-        user.setId("22222222");  
+        user.setId("123");  
         user.setName("zhang"); 
         return user;  
     }  
